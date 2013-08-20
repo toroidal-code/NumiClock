@@ -1,4 +1,4 @@
-UISP = avrdude -c avrispmkII -P usb -p m328 -F
+UISP = avrdude -c usbtiny -P usb -p m328p -F
 
 COMPILE = avr-g++ -Wall -Os -Iusbdrv -I. -mmcu=atmega328  #-DDEBUG_LEVEL=1
 
