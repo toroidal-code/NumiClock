@@ -1,6 +1,6 @@
-UISP = avrdude -c avrispmkII -P usb -p m168 -F
+UISP = avrdude -c avrispmkII -P usb -p m328 -F
 
-COMPILE = avr-g++ -Wall -Os -Iusbdrv -I. -mmcu=atmega168  #-DDEBUG_LEVEL=1
+COMPILE = avr-g++ -Wall -Os -Iusbdrv -I. -mmcu=atmega328  #-DDEBUG_LEVEL=1
 
 OBJECTS = clock.o 
 # OBJECTS = main.o
